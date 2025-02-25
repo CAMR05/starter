@@ -39,7 +39,7 @@ body {
 /* Escritorio */
 @media (min-width: 1024px) {
     body {
-        background: orangered
+        background: greenyellow;
       font-size: 18px;
     }
 }
@@ -90,6 +90,7 @@ footer {
     background-color: purple;
     width: 100%;
     text-align: center;
+    color: greenyellow;
 }
 
 article {
