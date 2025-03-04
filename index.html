@@ -21,7 +21,7 @@
             <ul>
                 <li>
                     <a href="index.html" aria-label="Home"> <!-- propiedad de accesibilidad -->
-                        <img src="hulk-seeklogo.png" alt="Logotipo de Hulk" width="70">
+                        <img src="Logo.svg" alt="Logotipo" width="100">
                     </a>
                 </li>
                 <!-- urls de ejemplo como rutas de navegación -->
@@ -33,7 +33,13 @@
     </header>
     <main class="container">
         <!-- Contenido -->
-        <section>
+        <section id="image">
+         <picture>
+            <source srcset="img/hulk-seeklogo.png" type="image/jpg"  media="(max-width: 640px)">
+            <source srcset="img/centro-logo.svg" type="image/jpg" media="(min-width: 1200px)">
+            <img src="img/Logo.svg" alt="">
+         </picture>
+        
             <header>
                 <h1>Gamma Radiation</h1>
             </header>
@@ -46,7 +52,7 @@
     <footer>
         <img src="s-h-i-e-l-d-seeklogo.svg" alt="Logotipo de Hulk" width="70">
         <br>
-        <small>S.H.I.E.L.D.</small>
+        <small><b>CENTRO de Diseño, Cine y Televisión</b></small>
     </footer>
 </body>
 </html>

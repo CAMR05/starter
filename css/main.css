@@ -90,7 +90,8 @@ footer {
     background-color: purple;
     width: 100%;
     text-align: center;
-    color: greenyellow;
+    font-size: larger;
+    color: midnightblue;
 }
 
 article {
